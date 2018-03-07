@@ -10,4 +10,8 @@ class GitTestSecondClass{
 	void printGitTestSecondClass() {
 		System.out.println("Value of a is " + a + " and value of b is " + b);
 	}
+
+	int getA() {
+		return a;
+	}
 }
