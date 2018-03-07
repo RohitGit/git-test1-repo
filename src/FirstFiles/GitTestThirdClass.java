@@ -6,6 +6,11 @@ class GitTestThirdClass{
 		this.num2 = num2;
 	}
 
+	GitTestThirdClass(int num1) {
+		this.num1 = num1;
+		num2 = 10;
+	}
+
 	int calculateSumThirdClass() {
 		sum = num1 + num2;
 		return sum;
