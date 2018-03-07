@@ -11,6 +11,11 @@ class GitTestThirdClass{
 		num2 = 10;
 	}
 
+	GitTestThirdClass() {
+		num1 = 10;
+		num2 = 20;
+	}
+
 	int calculateSumThirdClass() {
 		sum = num1 + num2;
 		return sum;
