@@ -1,0 +1,5 @@
+# Ignore Compiled Class Files
+*.class
+
+# Ignore editor swap files
+*.swp
