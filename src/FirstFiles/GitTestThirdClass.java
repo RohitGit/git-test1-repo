@@ -1,5 +1,5 @@
 class GitTestThirdClass{
-	int num1, num2, sum;
+	int num1, num2, sum, product;
 	
 	GitTestThirdClass(int num1, int num2) {
 		this.num1 = num1;
@@ -19,5 +19,14 @@ class GitTestThirdClass{
 	int calculateSumThirdClass() {
 		sum = num1 + num2;
 		return sum;
+	}
+
+	int caculateProductThirdClass() {
+		product = num1 * num2;
+		return product;
+	}
+
+	String toString() {
+		System.out.println("The value of this object is num1: " + num1 + " , num2: " + num2);
 	}
 }
