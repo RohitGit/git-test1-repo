@@ -13,5 +13,8 @@ class GitTestFirstClass{
 		GitTestThirdClass gTTC1 = new GitTestThirdClass(5, val);
 		System.out.println("SUM is " + gTTC1.calculateSumThirdClass());
 
+		GitFirstNewFeature gFNF1 = new GitFirstNewFeature();
+		int sqr = gFNF1.calculateSquare(3);
+		System.out.println("Square is " + sqr);
 	}	
 }
